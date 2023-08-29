@@ -1,9 +1,12 @@
 public class Turista {
-    //Atributos
-    String nome;
-    String cpf;
+    //Atributos - Varáveis de instância
+    private String nome;
+    private String cpf;
 
-    //Construtor
+    //Construtor Padrão
+    Turista(){}
+
+    //Construtor personalizado
     Turista(String _nome){
         this.nome = _nome;
     }
@@ -13,4 +16,24 @@ public class Turista {
         return "Viajou!!!";
     }
 
+    //Getters e Setters
+
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        //Validar cpf
+
+        this.cpf = cpf;
+    }
 }
