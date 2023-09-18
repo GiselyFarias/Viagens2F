@@ -29,7 +29,7 @@ public class Main {
 
         //Adicionar cpf no objeto pessoaTurista
         if (Validacao.cpf(cpf)){
-            pessoaTurista.setCpf();
+            pessoaTurista.setCpf(cpf);
             System.out.println(pessoaTurista.getCpf());
         }
         else {
