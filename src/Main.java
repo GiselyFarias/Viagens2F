@@ -10,7 +10,7 @@ public class Main {
         //Definir forma de cada turista
         mochileiro.setCpf(Validacao.cpf("123"));
         mochileira.setNome("Namor");
-        mochileira.setCpf("456");
+        mochileira.setCpf("456") ;
 
         //Definir comportamento
         String retorno = mochileira.viajar();
@@ -31,10 +31,10 @@ public class Main {
         if (Validacao.cpf(cpf)){
             pessoaTurista.setCpf(cpf);
             System.out.println(pessoaTurista.getCpf());
+            System.out.println("CPF Válido");
         }
         else {
             System.out.println("CPF inválido!");
         }
-
     }
 }

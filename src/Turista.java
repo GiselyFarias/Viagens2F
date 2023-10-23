@@ -42,4 +42,8 @@ public class Turista {
 
         this.cpf = cpf;
     }
+
+    public void setCpf(boolean cpf) {
+
+    }
 }
